@@ -2,13 +2,12 @@
 
 <br>
 
-##This is a portfolio containing the work for our assessment.
+##This is a portfolio containing the work for our assessment.##
 
 <br>
 <br>
 
-###Table of Contents
-<br>
+###Table of Contents###
 
 
 To make up the 30 marks, I have completed the following:
