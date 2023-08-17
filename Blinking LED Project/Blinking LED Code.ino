@@ -1,8 +1,8 @@
-const int PIN_RED   = 2; //Red LED on pin 9
-const int PIN_GREEN = 4; //Green LED on pin 10
-const int PIN_BLUE  = 5; //Blue LED on Pin 11
+const int PIN_RED   = 2; //The Red LED is connected to pin 2
+const int PIN_GREEN = 4; //The Green LED is connected to pin 4
+const int PIN_BLUE  = 5; //The Blue LED is connected to pin 5
   
-//variables to hold our color intensities
+//the variables which hold our color intensities - essentially used to choose what colour is displayed by the LED
 int red;
 int green;
 int blue;
@@ -16,29 +16,28 @@ void setColor(int R, int G, int B) {
 }
   
 void setup() {
-  //set all three pins to output mode
+  //this sets all three pins to output mode 
   pinMode(PIN_RED,   OUTPUT);
   pinMode(PIN_GREEN, OUTPUT);
   pinMode(PIN_BLUE,  OUTPUT);
   
 }
-  
+
+
+//this function will set the and loop through all the colours of the rainbow
 void loop() {
- 
-  // set the colors of the LED
-  // Loop through Red-Green-Blue and repeat
-  setColor(148, 0, 211); //set LED to Red
-  delay(500);
-  setColor(	75, 0, 130); //set LED to Green
+  setColor(148, 0, 211); //set LED to Purple
+  delay(500); //Delay (and delays below) will pause for half a second so that the colour can actually be displayed
+  setColor(	75, 0, 130); //set LED to indigo
   delay(500);
   setColor(0, 0, 255); //set LED to Blue
   delay(500);
-  setColor(0, 255, 0); //set LED to Blue
+  setColor(0, 255, 0); //set LED to Green
   delay(500);
-  setColor(255, 255, 0); //set LED to Blue
+  setColor(255, 255, 0); //set LED to Yellow
   delay(500);
-  setColor(255, 127, 0); //set LED to Blue
+  setColor(255, 127, 0); //set LED to Orange
   delay(500);
-  setColor(255, 0 , 0); //set LED to Blue
+  setColor(255, 0 , 0); //set LED to Red
   delay(500);
 }
