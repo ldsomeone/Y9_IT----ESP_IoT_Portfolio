@@ -1,11 +1,3 @@
-/*
- * This ESP32 code is created by esp32io.com
- *
- * This ESP32 code is released in the public domain
- *
- * For more detail (instruction and wiring diagram), visit https://esp32io.com/tutorials/esp32-button-led
- */
-
 #define BUTTON_PIN 15  // ESP32 pin GIOP16, which connected to button
 #define LED_PIN    2  // ESP32 pin GIOP18, which connected to led
 
