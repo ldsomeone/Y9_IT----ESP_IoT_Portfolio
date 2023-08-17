@@ -2,16 +2,16 @@
 
 <br>
 
-##This is a portfolio containing the work for our assessment.##
+## This is a portfolio containing the work for our assessment.
 
-<br>
-<br>
+<br><br>
 
-###Table of Contents###
+### Table of Contents###
 
+<br><br>
 
 To make up the 30 marks, I have completed the following:
-<br>
+<br><br>
 
 5 Marks - The GitHub Repostiory Setup (Inherent in this Repository)
 
