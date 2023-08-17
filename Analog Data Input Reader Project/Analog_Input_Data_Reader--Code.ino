@@ -4,6 +4,8 @@ const int potPin = 2;
 //variable for storing the potentiometer value
 int potValue = 0;
 
+
+//this function sets up our potentiometer
 void setup() {
   //9600 bauds is the default value because it is fast enough
   Serial.begin(9600);
@@ -11,9 +13,8 @@ void setup() {
   delay(1000);
 }
 
-
+//this loop is what runs to read and print our potentiometer value - it is void because we do not input any parameters and none are returned
 void loop() {
-  
   //this reads the potentiometer value
   potValue = analogRead(potPin);
   //this prints the potentiometer value (0-4095)
