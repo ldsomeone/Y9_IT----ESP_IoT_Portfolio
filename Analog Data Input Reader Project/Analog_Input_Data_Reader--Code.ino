@@ -5,15 +5,19 @@ const int potPin = 2;
 int potValue = 0;
 
 void setup() {
+  //9600 bauds is the default value because it is fast enough
   Serial.begin(9600);
+  //we have this delay before the value starts to be printed (in loop below) because it takes some time to setup the potentiometer
   delay(1000);
-
 }
+
 
 void loop() {
   
   //this reads the potentiometer value
   potValue = analogRead(potPin);
+  //this prints the potentiometer value (0-4095)
   Serial.println(potValue);
+  //this has a delay because we do not want the value printing every milisecond. Instead it only prints each half-second
   delay(500);
 }
